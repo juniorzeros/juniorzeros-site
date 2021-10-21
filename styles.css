@@ -1,0 +1,78 @@
+body {
+  background: rgb(28, 3, 37);
+}
+
+.info-content-card {
+  margin-top: 1em;
+  position: relative;
+}
+
+#logo-with-tag-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  margin: 1em 20em 1em .5em;
+  border: solid rgb(128, 94, 0) 2.5px;
+  background-color: #FFFDD0;
+  border-radius: 5px;
+}
+
+.square {
+  position: absolute;
+  top: 30%;
+  width: 600px;
+  height: 400px;
+  background-color: rgb(231, 107, 159);
+  border: solid rgb(128, 94, 0) 3px;
+  border-radius: 10px;
+}
+
+#company-title {
+  padding-left: .5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(143, 94, 20);
+  text-shadow: 1px 2px #000000;
+}
+
+.inner-square {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25em 1em;
+  margin: .5em;
+  background-color: rgb(128, 94, 0);
+  border: solid 2px #FFFDD0;
+  border-radius: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  background: #FFFDD0;
+  border-radius: 5px;
+  border: 2px solid rgb(231, 107, 159);
+}
+
+#mission-statement-text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: rgb(247, 255, 255);
+  text-shadow: 1px 2px #000000;
+}
+
+.logo-img {
+  width: 200px;
+  height: 200px;
+  margin-top: -.25em;
+  padding: .5em 1.75em;
+}
+
+.icon-hover:hover {
+  transform: translateY(-6px);
+  transition: transform 300ms;
+  border-radius: 5px;
+}
