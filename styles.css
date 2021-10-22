@@ -76,3 +76,15 @@ body {
   transition: transform 300ms;
   border-radius: 5px;
 }
+
+/* .personal-profile {
+  width: 250px;
+  height: 250px;
+  margin: .5em;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: rgb(247, 255, 255);
+  padding: 1em;
+} */
